@@ -1,0 +1,48 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection=“customer-portal” audience="platform" href="/docs/customer-portal/getting-started.html"}
+Managing infrastructure resources
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    cpwhatis.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    Managing user accounts
+        cpmanacctadduser.md
+        cpmanibmid.md
+        cpmanuserprof.md
+        cpmanacctmanpw.md
+        cpmanacctcompprofcont.md
+        cpmanacctconfsso.md
+        ccpmanacccancreq.md
+        cpsetupfedid.md
+
+    {: .topicgroup}
+    Managing billing and payments
+        cpmanacctbillpay.md
+        pay-invoice.md
+
+    {: .topicgroup}
+    Managing your environment
+        cpmonenv.md
+        cpprotectsys.md
+        cpcompsegapptiers.md
+        cpcompmanlic.md
+        cprebootserver.md
+        cpcompmanbwpool.md
+        cpcompuschrootkittool.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    cpsupport.md
+    cpsub2not.md
+    customerportal-faq.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    cpapi.md
+    {: .navgroup-end}
