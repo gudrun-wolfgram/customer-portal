@@ -28,17 +28,17 @@ Whether or not you have a linked account, you can open customer support tickets 
 
 1. Log in to the [customer portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Support** > **Add Ticket** from the menu.
-3. Select the category that best fits the reason from opening a ticket from the **Subject** drop down list.
-4. Select your user name from the **Assign To** drop down list.<br/>
+3. Select the category that best fits the reason from opening a ticket from the **Subject** list.
+4. Select your user name from the **Assign To** list.<br/>
 
-  If you are opening a ticket for another user, select that user from the drop down list.
+  If you are opening a ticket for another user, select that user from the list.
   {:tip}
 
 5. Enter a brief description of the question or issue in the **Title** field.
 6. If email updates should be sent when the ticket is updated, indicate to whom:
-  * If updates should be sent to the assignee, select the **Email me updates?** check box. If you are not the assignee, selecting the **Email me updates?** check box results in the assignee being sent updates, as it is linked with the **Assign to** drop down list.
-  * If email updates should be sent to others, in the **Email Others** field, enter the email address of the user to receive updates, or select the email address from the drop down list. Then, click **Add Recipient**. Repeat these steps until all recipients have been added. You can add up to five recipients per ticket, in addition to the assignee.
-7. If devices are associated with an existing ticket, enter the device name in the **Associated Devices** field or select the device from the drop down list, then click **Add Device**. Repeat these steps until all devices have been added.
+  * If updates should be sent to the assignee, select the **Email me updates?** check box. If you are not the assignee, selecting the **Email me updates?** check box results in the assignee being sent updates, as it is linked with the **Assign to** list.
+  * If email updates should be sent to others, in the **Email Others** field, enter the email address of the user to receive updates, or select the email address from the list. Then, click **Add Recipient**. Repeat these steps until all recipients have been added. You can add up to five recipients per ticket, in addition to the assignee.
+7. If devices are associated with an existing ticket, enter the device name in the **Associated Devices** field or select the device from the list, then click **Add Device**. Repeat these steps until all devices have been added.
 
   You can associate up to five devices with a ticket. Rather than creating multiple tickets for each device that is experiencing the same issue or outage, associate up to five devices in your ticket and they can all be handled at once. This also ensures that the support team is aware of a widespread issue on your account and can resolve the issue in all locations.
   {:tip}
@@ -64,7 +64,7 @@ After you add a ticket, you can view it at any time from the **Tickets** window.
 
 1. Access the [Customer Portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Support** > **Tickets** from the menu.
-3. Select the status of the ticket from the drop down menu to filter the view.
+3. Select the status of the ticket from the menu to filter the view.
 4. Click the ticket number to view the details of the ticket.
 
 
@@ -75,7 +75,7 @@ You can update an existing support ticket at any time to include additional comm
 
 1. Access the [Customer Portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Support** > **Tickets** from the menu.
-3. Select the status of the ticket from the drop down menu to filter the view.
+3. Select the status of the ticket from the menu to filter the view.
 4. Click the ticket number to view the details of the ticket.
 5. Update the ticket, as necessary. You can perform the following tasks:
   * Reassign a Ticket: from the **Reassign** drop down list, select the user to reassign the ticket to.   
