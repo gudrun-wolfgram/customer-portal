@@ -178,4 +178,4 @@ When a [new user is added](/docs/customer-portal/cpmanacctadduser.html#customerp
   * Select **Manual** to manually manage subnet access and then select the **Grant Access** check box for each subnet to which the user should have access. Be sure to clear any check boxes that the user should not have access to.
 6. Click **Save**.
 
-After updating a user's VPN access, their permissions are updated accordingly and the VPN Access column displays the updated VPN access method, if applicable. More information on establishing a VPN connection can be found on the [VPN topic page](/docs/vpn/index.html).
+After updating a user's VPN access, their permissions are updated accordingly and the VPN Access column displays the updated VPN access method, if applicable.
