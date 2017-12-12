@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2017
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-12-12"
 
 ---
 
@@ -32,7 +32,8 @@ You can change the company profile at any time by submitting a change request. A
 2. Select **Account** > **Manage** > **Company Profile** from the menu to access the Account Profile window.
 3. Update the details in the **Company Information** or **Primary Account Holder** section, or both.
 > **Note:** Information in the account profile is used for internal, administrative purposes only.
-4. Click **Submit Update Request**.
+4. Optionally, select **EU Supported** if you want to ensure that the support team in Europe handles your maintenance and support issues. For more information about this option, see [Setting the European support option](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported).
+5. Click **Submit Update Request**.
 
 After requesting an update to the company profile, a {{site.data.keyword.BluSoftlayer_notm}} infrastructure team member reviews the request. If any additional information requires verification, the information is verified. After all changes have been approved, the account profile is updated as requested.
 

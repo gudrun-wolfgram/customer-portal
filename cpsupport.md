@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2017
 
-lastupdated: "2017-12-08"
+lastupdated: "2017-12-12"
 
 ---
 
@@ -53,9 +53,16 @@ Whether or not you have a linked account, you can open customer support tickets 
   You can attach up to two files to a ticket.
   {:tip}
 
+10. Select a data center from the **EU Supported** list if you are a customer in Europe and you require that the support team handling your tickets must also be in Europe.
+
+  Select **None** if you do not require that your support team is physically located in Europe.
+  {: tip}
+
+  See [Setting the EU support option](/docs/customer-portal/cpmanuserprof.html#cp_seteusupported) for information about initializing this function for your account.
+
 11. Click **Add Ticket**.
 
-After you add a ticket, it is routed to the appropriate member of the Support team for resolution. Tickets are handled by using an "Emergency Room" methodology, meaning that the most severe issues, such as outages, are handled first, followed by service degrading issues, and then questions. A member of the Support team will be in contact with the assignees regarding additional information to resolve the ticket.
+After you add a ticket, it is routed to the appropriate member of the Support team for resolution. Tickets are handled based on the degree of severity, meaning that the most severe issues, such as outages, are handled first, followed by service degrading issues, and then questions. A member of the Support team will be in contact with the assignees regarding additional information to resolve the ticket.
 
 ## Viewing an existing ticket
 {: #cp_viewsuptickwsp}
@@ -64,7 +71,7 @@ After you add a ticket, you can view it at any time from the **Tickets** window.
 
 1. Access the [Customer Portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Support** > **Tickets** from the menu.
-3. Select the status of the ticket from the menu to filter the view.
+3. Select the status of the ticket from the drop down menu to filter the view.
 4. Click the ticket number to view the details of the ticket.
 
 
@@ -75,7 +82,7 @@ You can update an existing support ticket at any time to include additional comm
 
 1. Access the [Customer Portal ![External link icon](../icons/launch-glyph.svg)](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Support** > **Tickets** from the menu.
-3. Select the status of the ticket from the menu to filter the view.
+3. Select the status of the ticket from the drop down menu to filter the view.
 4. Click the ticket number to view the details of the ticket.
 5. Update the ticket, as necessary. You can perform the following tasks:
   * Reassign a Ticket: from the **Reassign** drop down list, select the user to reassign the ticket to.   

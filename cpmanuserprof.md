@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2017
 
-lastupdated: "2017-12-06"
+lastupdated: "2017-12-12"
 
 ---
 
@@ -55,7 +55,7 @@ Use the following steps to edit a user's customer portal permissions.
 
   You might get a message indicating that changes haven't been saved to the user profile. If no changes have been made to the profile, click through to discard changes and access the Permissions window.
   {: tip}
-  
+
 5. Select the permissions:
   * To set quick permissions, select the permission set from the **Quick Permissions** list. After you select a permission set, each permission associated with the set is displayed in orange text with an orange arrow pointing to the check box. Then click **Set Permissions** for each tab.
   * To set individual permissions, select or deselect each check box on the tabs to update the user's permissions. Click **Select All Permissions** or **Deselect All Permissions** on any tab to select or deselect all permissions at once.
@@ -100,16 +100,16 @@ After you add PhoneFactor, you must manually activate external authentication wi
 
   If the PhoneFactor Settings section is not available, first verify that you received the PhoneFactor provisioning email indicating that PhoneFactor has been provisioned. If PhoneFactor has been provisioned and the section is not available, create a support ticket. If PhoneFactor has not yet been provisioned, wait for the email and try again. If PhoneFactor has not yet been added, see [adding external authentication for a user](/docs/customer-portal/cpmanuserprof.html#cp_addextauthuser).
   {: tip}
-  
+
 5. Select **Active** from the **Status** list.
 6. Edit the **Primary Phone Number** for authentication.
   1. Click the **Edit** link.
   2. Enter the **Country Code**, **Phone Number** and **Extension**, if applicable, in the associated fields.
   3. Click **Authenticate and Save Number** to complete authentication.
-  
+
     When adding a phone number for authentication, you must be by the phone. After you click **Authenticate**, the number is called and you are prompted to complete a step to authenticate the number. Phone numbers cannot be authenticated without completion of these steps.
     {: tip}
-    
+
   4. To add a **Secondary Phone Number**, repeat these steps.
 7. Select the **Contact Method** from the **Method** list.
 8. Select a **PIN type** from the **PIN Type** list.
@@ -129,7 +129,7 @@ If you set up PhoneFactor as the authentication type, you can to choose one of t
 <dd>With this option selected, you enter a pin value in the customer portal. The pin must be between 4 to 8 numbers. When you try to log into the portal, you receive a call to the primary number listed in the portal. When you answer, you are told to enter your pin number followed by the # to complete the authentication.</dd>
 <dt>SMS text and one-time pin</dt>
 <dd>With this option selected, you receive a text message with a pin that you use to reply back to the message. When you enter the pin provided, the authentication process completes and logs you into the portal.</dd>
-<dt>SMS text with one-time & pin value</dt>
+<dt>SMS text with one-time &amp; pin value</dt>
 <dd>With this option selected, you create a pin value of 4 to 8 numbers. You then receive a text message, and you reply back with the provided code and your pin number without spaces.</dd>
 <dt>PhoneFactor app and standard (no pin)</dt>
 <dd>Open the PhoneFactor application (Azure Authenticator) on your device and click  <strong>Authenticate</strong>. It will show that you have successfully authenticated using PhoneFactor and log you into the portal.</dd>
@@ -179,3 +179,31 @@ When a [new user is added](/docs/customer-portal/cpmanacctadduser.html#customerp
 6. Click **Save**.
 
 After updating a user's VPN access, their permissions are updated accordingly and the VPN Access column displays the updated VPN access method, if applicable.
+
+### Activating or deactivating PPTP VPN access
+{: #cp_pptpvpn}
+
+You can activate PPTP VPN to form a secure tunnel to the {{site.data.keyword.BluSoftlayer_full}} infrastructure private network using specialized client software running on the your desktop or dedicated device. You can use PPTP if you need to connect your entire office or if you cannot use the SSL VPN solution.
+{:shortdesc}
+
+You are allotted one PPTP connection with additional connections available.  You can request support to enable unlimited PPTP access, which is available at no additional charge. Use the following steps to activate or deactivate PPTP VPN access:
+
+1. Access the customer portal using your unique credentials.
+2. Select **Account > Users** from the menu bar.
+3. Click the **current VPN access type** link in the **VPN Access** column to display the VPN Access window.
+4. Select the **PPTP Access** check box to activate or deactivate PPTP VPN access for that user.
+
+## Setting the EU Supported option
+{: #cp_seteusupported}
+
+You can indicate that you want support exclusively from a support team that is physically located in the European Union (EU). You can select this option when you set up your account or when you update your existing account. To set the **EU Supported** option, use the following steps:
+1. Access the customer portal using your unique credentials.
+2. Click **Account** > **Manage** > **Company Profile** from the menu bar.
+3. Select the **EU Supported** check box.
+4. Click **Request Profile Update**.
+
+If the **EU Supported** option is not available, you might have users in your account with PPTP VPN access enabled. Disable the PPTP VPN access for all of the users in your account first to enable the **EU Supported** option. See [Activating or deactivating PPTP VPN access](/docs/customer-portal/cpmanuserprof.html#cp_pptpvpn) for more information.
+
+For more information about implementing the **EU Supported** option when you open a support ticket, see [Requesting support for resources in the European Union](/docs/support/index.html#eusupported).
+
+
